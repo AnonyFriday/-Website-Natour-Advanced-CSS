@@ -1,0 +1,20 @@
+{
+	"name": "natours",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "python3 -m http.server",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/vukimduy752000/-Website-Natour-Advanced-CSS.git"
+	},
+	"author": "vukimduy",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/vukimduy752000/-Website-Natour-Advanced-CSS/issues"
+	},
+	"homepage": "https://github.com/vukimduy752000/-Website-Natour-Advanced-CSS#readme"
+}
