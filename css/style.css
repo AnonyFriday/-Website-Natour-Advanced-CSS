@@ -35,4 +35,77 @@ body {
 	background-size: cover;
 	background-position: top;
 	clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+	position: relative;
+}
+
+.logo-box {
+	position: absolute;
+	top: 40px;
+	left: 40px;
+}
+
+.logo {
+	height: 35px;
+}
+
+.text-box {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: red;
+}
+
+.heading-primary {
+	color: #fff;
+	text-transform: uppercase;
+	backface-visibility: hidden;
+}
+
+.heading-primary-main {
+	display: block;
+	font-size: 60px;
+	font-weight: 400;
+	letter-spacing: 35px;
+
+	animation: moveInLeft 0.9s ease-out;
+}
+
+.heading-primary-sub {
+	display: block;
+	font-size: 20px;
+	font-weight: 700;
+	letter-spacing: 15.8px;
+
+	animation: moveInRight 0.9s ease-out;
+}
+
+@keyframes moveInLeft {
+	0% {
+		opacity: 0;
+		transform: translate(-20%, 0);
+	}
+	80% {
+		opacity: 0.9;
+		transform: translate((5%, 0));
+	}
+	100% {
+		opacity: 1;
+		transform: translate(0);
+	}
+}
+
+@keyframes moveInRight {
+	0% {
+		opacity: 0;
+		transform: translate(20%, 0);
+	}
+	80% {
+		opacity: 0.9;
+		transform: translate(-10px);
+	}
+	100% {
+		opacity: 1;
+		transform: translate(0);
+	}
 }
